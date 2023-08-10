@@ -9,4 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+     {
+       "catppuccin/nvim",
+       as = "catppuccin",
+     },
+     {
+       "f-person/git-blame.nvim",
+     }
+
 }
